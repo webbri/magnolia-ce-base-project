@@ -8,7 +8,7 @@
 
 # Base Project to Start Working with Magnolia CE Using JAVA and Maven
 
-Create the Project from Scratch
+Create the Project from scratch
 
 ```BASH
 mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -DarchetypeArtifactId=magnolia-project-archetype -DarchetypeVersion=RELEASE
