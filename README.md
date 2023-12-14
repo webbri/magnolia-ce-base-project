@@ -1,4 +1,5 @@
 - [Base Project to Start Working with Magnolia CE Using JAVA and Maven](#base-project-to-start-working-with-magnolia-ce-using-java-and-maven)
+  - [Create the Project from scratch](#create-the-project-from-scratch)
   - [Compile the Project](#compile-the-project)
   - [Start the Project](#start-the-project)
 - [Proyecto base para empezar a trabajar en Mangolia CE con JAVA y Maven](#proyecto-base-para-empezar-a-trabajar-en-mangolia-ce-con-java-y-maven)
@@ -8,7 +9,7 @@
 
 # Base Project to Start Working with Magnolia CE Using JAVA and Maven
 
-Create the Project from scratch
+## Create the Project from scratch
 
 ```BASH
 mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -DarchetypeArtifactId=magnolia-project-archetype -DarchetypeVersion=RELEASE
