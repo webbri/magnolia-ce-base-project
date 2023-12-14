@@ -14,6 +14,11 @@ mvn clean install
 
 # Arrancar el proyecto
 
+En la carpeta de la webapp lanzamos el siguiente comando.
+
 ```BASH
+cd magnolia-webbri-project-webapp
 mvn cargo:run
 ```
+
+Nos desplegará Magnolia CE en el puerto `8080`
