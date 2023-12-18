@@ -11,6 +11,6 @@ import info.magnolia.module.DefaultModuleVersionHandler;
  * @see info.magnolia.module.ModuleVersionHandler
  * @see info.magnolia.module.delta.Task
  */
-public class net.webbri.magnolia.moduleVersionHandler extends DefaultModuleVersionHandler {
+public class MagnoliaCEModuleVersionHandler extends DefaultModuleVersionHandler {
 
 }
