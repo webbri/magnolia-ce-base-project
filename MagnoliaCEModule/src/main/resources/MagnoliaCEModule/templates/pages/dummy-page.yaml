@@ -1,0 +1,10 @@
+templateScript: /MagnoliaCEModule/templates/pages/dummy-page.ftl
+renderType: freemarker
+visible: true
+dialog: MagnoliaCEModule:pages/dummy-page-properties
+areas:
+  main:
+    renderType: freemarker
+    availableComponents:
+      dummy-component:
+        id: MagnoliaCEModule:components/dummy-component
