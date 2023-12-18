@@ -7,7 +7,7 @@ package net.webbri.magnolia;
  * If you don't need this, simply remove the reference to this class in the module descriptor xml.
  * See https://documentation.magnolia-cms.com/display/DOCS/Module+configuration for information about module configuration.
  */
-public class net.webbri.magnolia.module {
+public class MagnoliaCEModule {
     /* you can optionally implement info.magnolia.module.ModuleLifecycle */
 
 }

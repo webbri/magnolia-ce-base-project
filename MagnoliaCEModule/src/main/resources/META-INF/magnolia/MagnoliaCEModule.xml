@@ -4,8 +4,8 @@
   <name>MagnoliaCEModule</name>
   <displayName>${project.name}</displayName>
   <description>${project.description}</description>
-  <class>net.webbri.magnolia.net.webbri.magnolia.module</class>
-  <versionHandler>net.webbri.magnolia.setup.net.webbri.magnolia.moduleVersionHandler</versionHandler>
+  <class>net.webbri.magnolia.MagnoliaCEModule</class>
+  <versionHandler>>net.webbri.magnolia.setup.MagnoliaCEModuleVersionHandler</versionHandler>
   <version>${project.version}</version>
 
   <!-- For more information on module descriptor configuration options -->
