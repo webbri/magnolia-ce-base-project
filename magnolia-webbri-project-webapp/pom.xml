@@ -63,6 +63,14 @@
     </dependency>
     -->
 
+
+    <!-- Own dependencies -->
+    <dependency>
+      <groupId>net.webbri.magnolia</groupId>
+      <artifactId>MagnoliaCEModule</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
   </dependencies>
 
   <build>
