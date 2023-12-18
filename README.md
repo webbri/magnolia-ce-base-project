@@ -32,6 +32,12 @@ mvn cargo:run
 
 It will deploy Magnolia CE on port `8080`.
 
+## Create a Maven Module inside the project
+```BASH
+mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -DarchetypeArtifactId=magnolia-module-archetype -DarchetypeVersion=RELEASE
+```
+
+
 ---
 
 # Proyecto base para empezar a trabajar en Mangolia CE con JAVA y Maven
@@ -46,7 +52,7 @@ mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -Darche
 
 ```BASH
 mvn clean install
-```
+``
 
 ## Arrancar el proyecto
 
