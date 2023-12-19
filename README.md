@@ -26,17 +26,17 @@ mvn clean install
 In the webapp folder, execute the following command.
 
 ```BASH
-cd magnolia-webbri-project-webapp
+cd magnolia-base-ce-project-webapp
 mvn cargo:run
 ```
 
 It will deploy Magnolia CE on port `8080`.
 
 ## Create a Maven Module inside the project
+
 ```BASH
 mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -DarchetypeArtifactId=magnolia-module-archetype -DarchetypeVersion=RELEASE
 ```
-
 
 ---
 
@@ -50,7 +50,7 @@ mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -Darche
 
 ## Compilar el proyecto
 
-```BASH
+````BASH
 mvn clean install
 ``
 
@@ -59,8 +59,8 @@ mvn clean install
 En la carpeta de la webapp lanzamos el siguiente comando.
 
 ```BASH
-cd magnolia-webbri-project-webapp
+cd magnolia-base-ce-project-webapp
 mvn cargo:run
-```
+````
 
 Nos desplegará Magnolia CE en el puerto `8080`
