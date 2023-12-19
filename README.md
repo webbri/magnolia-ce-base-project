@@ -6,6 +6,7 @@
 - [Proyecto base para empezar a trabajar en Mangolia CE con JAVA y Maven](#proyecto-base-para-empezar-a-trabajar-en-mangolia-ce-con-java-y-maven)
   - [Crear el proyecto desde cero](#crear-el-proyecto-desde-cero)
   - [Compilar el proyecto](#compilar-el-proyecto)
+  - [Arrancar el proyecto](#arrancar-el-proyecto)
 
 # Base Project to Start Working with Magnolia CE Using JAVA and Maven
 
@@ -50,9 +51,9 @@ mvn archetype:generate -DarchetypeGroupId=info.magnolia.maven.archetypes -Darche
 
 ## Compilar el proyecto
 
-````BASH
+```BASH
 mvn clean install
-``
+```
 
 ## Arrancar el proyecto
 
@@ -61,6 +62,6 @@ En la carpeta de la webapp lanzamos el siguiente comando.
 ```BASH
 cd magnolia-project-webapp
 mvn cargo:run
-````
+```
 
 Nos desplegará Magnolia CE en el puerto `8080`
