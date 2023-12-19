@@ -2,10 +2,10 @@
   - [Create the Project from scratch](#create-the-project-from-scratch)
   - [Compile the Project](#compile-the-project)
   - [Start the Project](#start-the-project)
+  - [Create a Maven Module inside the project](#create-a-maven-module-inside-the-project)
 - [Proyecto base para empezar a trabajar en Mangolia CE con JAVA y Maven](#proyecto-base-para-empezar-a-trabajar-en-mangolia-ce-con-java-y-maven)
   - [Crear el proyecto desde cero](#crear-el-proyecto-desde-cero)
   - [Compilar el proyecto](#compilar-el-proyecto)
-  - [Arrancar el proyecto](#arrancar-el-proyecto)
 
 # Base Project to Start Working with Magnolia CE Using JAVA and Maven
 
@@ -26,7 +26,7 @@ mvn clean install
 In the webapp folder, execute the following command.
 
 ```BASH
-cd magnolia-base-ce-project-webapp
+cd magnolia-project-webapp
 mvn cargo:run
 ```
 
@@ -59,7 +59,7 @@ mvn clean install
 En la carpeta de la webapp lanzamos el siguiente comando.
 
 ```BASH
-cd magnolia-base-ce-project-webapp
+cd magnolia-project-webapp
 mvn cargo:run
 ````
 
